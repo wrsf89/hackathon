@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    }
+
+body{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    background: url('../image/beach5.jpg');
+    background-size: cover;
+}  
+
+.idFind-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 510px;
+    padding: 40px;
+    height: 403px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 40px;
+    
+}
+
+.idFind-wrapper > h2{
+    font-size: 30px;
+    color: #6A24FE;
+    margin-bottom: 20px;
+
+}
+
+.idFind-wrapper > ul ,li{
+    list-style: none;
+    float: left;
+}
+
+#idFind-form > input{
+    width: 100%;
+    height: 68px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+
+#idFind-form > input::placeholder{
+    color: #B3B3B3;
+
+}
+
+#idFind-form > input[type="submit"]{
+    color: #fff;
+    font-size: 16px;
+    background-color: #505050	;
+    margin-top: 20px;
+}
+
+#idFind-form > input[type="submit"]:hover {
+   
+    background: #393939;
+	transition: .3s;
+}
+
+.nav-class{
+    position:fixed;
+    width:100%;
+    height:100px;
+    background:#505050;
+    color:white;
+    text-align:center;
+    top:0;
+    left:0;
+}
+
+.serach-class{
+    display:inline-block;
+    
+}
+
+

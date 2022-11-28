@@ -1,0 +1,42 @@
+.cscs input[type="button"] 
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #FF4848;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cscs .good1 input[type="button"] 
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #5B5AFF;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cscs .good1 input[type="button"]:hover 
+{
+	background: #3736FF;
+	transition: .5s;	
+}
+
+.cscs input[type="button"]:hover 
+{
+	background: #FF0000;
+	transition: .5s;	
+}
+
+.cscs {
+
+	display: inline-block;
+
+
+}

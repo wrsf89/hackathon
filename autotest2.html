@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+</head>
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<body>
+  <button onclick="play()" id="btnId">눌러</button>
+
+</body>
+</html>
+
+<script>
+    var audio1 = new Audio("mp3/졸음쉼터 1키로.mp3");
+    $('#btnId').hide();
+    document.getElementById('btnId').click();
+    function play(){   
+        console.log("test");
+        audio1.play();
+     }
+    </script>
+

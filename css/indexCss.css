@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    }
+
+body{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    background: url('../image/beach5.jpg');
+	background-size: cover;
+}  
+
+.login-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450;
+    padding: 40px;
+    height: 403px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 40px;
+    
+}
+
+.login-wrapper > h2{
+    font-size: 30px;
+    color: #6A24FE;
+    margin-bottom: 20px;
+
+}
+
+.login-wrapper > ul ,li{
+    list-style: none;
+    float: left;
+}
+
+#login-form > input{
+    width: 100%;
+    height: 68px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+
+#login-form > input::placeholder{
+    color: #B3B3B3;
+
+}
+
+#login-form > input[type="submit"]{
+    color: #fff;
+    font-size: 16px;
+    background-color: #505050	;
+    margin-top: 20px;
+}
+
+#login-form > input[type="submit"]:hover {
+   
+    background: #393939;
+	transition: .3s;
+}
+
+.nav-class{
+    position:fixed;
+    width:100%;
+    height:100px;
+    background:#505050;
+    color:white;
+    text-align:center;
+    top:0;
+    left:0;
+}
+
+.serach-class{
+    display:inline-block;
+    
+}
+
+.aClass{
+    text-decoration: none;
+    
+}
+
+.aClass2{
+    text-decoration: none;
+    float: right;
+}
+
+.fa-lock
+{
+	margin-right: 6px;
+    
+}
+
+.fa-user
+{
+    margin-right: 6px;
+}

@@ -1,0 +1,193 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url('../image/beach5.jpg');
+	background-size: cover;
+        
+}
+
+.nav-class{
+    position:fixed;
+    width:100%;
+    height:100px;
+    background:#505050;
+    color:white;
+    text-align:center;
+    top:0;
+    left:0;
+}
+
+.bar > h2 {
+font-size: 30px;
+    color: #6A24FE;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.bar
+{
+    
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: 660px;
+	padding: 40px;
+	background: #FFF;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 40px;
+}
+
+.bar h2
+{
+	
+	margin: 0 0 30px;
+	padding: 0;
+	color: #6A24FE;
+	text-align: center;
+	transition: .5s;
+}
+
+.bar .bar2
+{
+	position: relative;
+	
+}
+
+.bar .bar1 input
+{	
+	float: center;
+	width: 70%;
+	padding: 10px 0;
+	border: none;
+	font-size: 16px;
+	color: black;
+	margin-bottom: 25px;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #C2C2C2;
+	
+}
+
+.bar .bar2 input
+{	
+	float: center;
+	width: 90%;
+	padding: 10px 0;
+	border: none;
+	font-size: 16px;
+	color: black;
+	margin-bottom: 25px;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #C2C2C2;
+	
+}
+
+.bar .bar1 > input::placeholder{
+
+    color: #B3B3B3;
+}
+
+.bar .bar2 > input::placeholder{
+
+    color: #B3B3B3;
+}
+
+.bar input[type="submit"]
+{
+	width: 100%;
+	background: transparent;
+	padding: 20px 25px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	color: #fff;
+	background: skyblue;
+	cursor: pointer;
+    font-size: 17px;
+}
+
+.bar input[type="submit"]:hover
+{
+		
+	background: #8324FF;
+	transition: .3s;
+}
+
+.bar h3 a
+{
+	
+	outline: none;
+	text-decoration: none;
+}
+
+.bar h3
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.fa-user
+{
+	margin-right: 10px;
+	
+	
+}
+
+.fa-unlock-alt
+{
+	margin-right: 10px;
+	
+	
+}
+
+.fa-microchip
+{
+	margin-right: 6px;
+}
+
+.fa-address-book
+{
+    margin-right: 6px;
+}
+
+.fa-building
+{
+    margin-right: 6px;
+}
+
+.fa-phone
+{
+    margin-right: 6px;
+}
+
+.bar h1
+{
+	text-align: center;
+	font-size: 11px;
+	color: #BBBBBB;
+}
+
+.bar input[type="button"]
+{
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+    background-color: skyblue;
+    color: white;
+}
+
+.bar input[type="button"]:hover
+{
+ 
+	background: #8324FF;
+	transition: .3s;
+}
